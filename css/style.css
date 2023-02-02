@@ -1,22 +1,27 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* Estilo del index y la página principal*/
+
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Permanent Marker', cursive;
 }
 
-.titulo{
+.titulo {
     margin: 10px;
 }
 
-.parrafo{
+.parrafo {
     margin: 20px;
 }
 
-#contenido{
+#contenido {
     min-height: 100vh;
-    position:relative;
+    position: relative;
 }
 
-.promo{
+.promo {
     padding-top: 350px;
     display: flex;
     flex-direction: column;
@@ -29,7 +34,7 @@
 
 }
 
-video{
+video {
     position: absolute;
     top: 0;
     left: 0;
@@ -38,7 +43,7 @@ video{
     object-fit: cover;
 }
 
-.capa{
+.capa {
     position: absolute;
     top: 0;
     left: 0;
@@ -49,7 +54,7 @@ video{
     mix-blend-mode: overlay;
 }
 
-.titulo2{
+.titulo2 {
     color: white;
     font-size: 2em;
     text-transform: uppercase;
@@ -60,10 +65,10 @@ video{
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     background-color: darkslategray;
-   
+
 }
 
-.opcion4{
+.opcion4 {
     color: white;
     font-size: 2em;
     text-transform: uppercase;
@@ -75,7 +80,7 @@ video{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.opcion2{
+.opcion2 {
     color: white;
     font-size: 2em;
     text-transform: uppercase;
@@ -87,7 +92,7 @@ video{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.opcion3{
+.opcion3 {
     color: white;
     font-size: 2em;
     text-transform: uppercase;
@@ -99,7 +104,7 @@ video{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.opcion1{
+.opcion1 {
     color: white;
     font-size: 2em;
     text-transform: uppercase;
@@ -111,11 +116,60 @@ video{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.footer{
+.footer {
     background-color: black;
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-   height: 40px;
-   color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+/* Aca va el estilo de la sección 2 Team Sonic */
+
+.contenedor-cover{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 80px;
+    background-image: url(../StH2929.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor-cover:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(38, 172, 255, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contenedor-info{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor-info h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contenedor-info p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
 }
