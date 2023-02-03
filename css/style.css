@@ -204,6 +204,8 @@ video {
 }
 
 
+
+
 .contenedor-cover{
     width: 100%;
     height: 500px;
@@ -369,3 +371,20 @@ color: white;
             color: #8e8e8e;
             font-weight: 500;
         }
+
+        /*Responsive adaptable*/
+
+        @media screen and (max-width: 1220px){
+
+        
+        .header-contenedor,
+        .contenedor-contenido,
+        .contenedor-footer footer{
+            max-width: 1000px;
+            padding: 0 20px;
+        }
+
+        .contenedor-contenido{
+            width: 100%;
+        }
+    }
