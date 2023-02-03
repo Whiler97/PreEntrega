@@ -296,3 +296,76 @@ video {
     width: 100%;
     margin-top: 20px;
 }
+
+/* Footer para todo*/
+
+.contenedor-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #f7f7f7;
+    margin-top: 40px;
+
+}
+
+.contenedor-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenedor-footer footer .logo-footer{
+    text-align: center;
+
+}
+
+.contenedor-footer footer .logo-footer img{
+width: 100px;
+}
+
+.contenedor-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contenedor-footer footer .redes-footer .icono-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+
+.contenedor-footer footer .redes-footer .fa-facebook:hover{
+background: #41579A;
+color: white;
+}
+
+.contenedor-footer footer .redes-footer .fa-google-plus:hover{
+    background: #DE4C34;
+    color: white;
+    }
+
+    .contenedor-footer footer .redes-footer .fa-instagram:hover{
+        background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+        color: white;
+        }
+
+        /*.contenedor-footer footer hr{
+            margin-top: 26px;
+            border: none;
+            height: 2px;
+            color: #7a7a7a;
+        }
+        */
+
+        .contenedor-footer h4{
+            text-align: center;
+            margin-top: 40px;
+            color: #8e8e8e;
+            font-weight: 500;
+        }
