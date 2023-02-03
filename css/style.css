@@ -398,6 +398,19 @@ video {
     background-repeat: no-repeat;
 }
 
+/*seccion Música*/
+
+.contenedor-musica {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url(../musica/musica-logo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*Responsive adaptable*/
 
 @media screen and (max-width: 1220px) {
