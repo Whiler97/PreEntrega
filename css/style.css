@@ -169,6 +169,10 @@ video {
     height: 100%;
 }
 
+.menu nav img{
+    display: none;
+}
+
 .menu nav ul {
     height: 100%;
     display: flex;
@@ -203,8 +207,32 @@ video {
     color: blue;
 }
 
+.iconos-responsive-teamsonic {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 20px;
+    padding: 10px;
+    background: #bcc6cf;
+    border-radius: 100%;
+    color: #04284d;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 
 
+}
+
+#iconos-responsive-teamsonic:hover {
+    background: #686161;
+}
+
+.menu #btn-menu{
+    display: none;
+}
 
 .contenedor-cover {
     width: 100%;
@@ -372,59 +400,9 @@ video {
     font-weight: 500;
 }
 
-/*seccion Argentina*/
 
-.contenedor-argentina {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    margin-top: 80px;
-    background-image: url(../arg/logo\ arg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
-/*seccion Japón*/
-
-.contenedor-japon {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    margin-top: 80px;
-    background-image: url(../jap/fushimi_lnwdef.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/*seccion Música*/
-
-.contenedor-musica {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    margin-top: 80px;
-    background-image: url(../musica/musica-logo.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/*seccion extra*/
-
-.contenedor-extra {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    margin-top: 80px;
-    background-image: url(../extra/Signos-de-interrogación-1024x563.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/*Responsive adaptable*/
+/*Responsive adaptable a móviles*/
 
 @media screen and (max-width: 1220px) {
 
@@ -439,4 +417,74 @@ video {
     .contenedor-contenido {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 1220px){
+    .contenedor-contenido{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    article{
+        box-shadow: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .solo-inicio{
+        display: none;
+    }
+/*.menu nav{
+    position: fixed;
+    top: 0;
+    right: -250px;
+    background: white;
+    width: 250px;
+    height: 100vh;
+    padding: 40px;
+    z-index: 1;
+}
+
+.menu ul{
+flex-direction: column;
+margin-top: 40px;
+}
+
+.menu ul li{
+margin-top: 30px;
+margin-left: 0;
+}
+
+.menu ul li a{
+    color: #bebebe;
+}
+
+.menu nav img{
+    display: block;
+    width: 60px;
+}
+
+#menu-lateral{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.menu #btn-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 24px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}*/
 }
