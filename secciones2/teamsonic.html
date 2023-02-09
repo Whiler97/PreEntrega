@@ -4,9 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <script src="https://kit.fontawesome.com/358d5415fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+
+        *{
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        @media screen and (max-width: 1220px) {
+
+
+            .header-contenedor,
+            .contenedor-contenido,
+            .contenedor-footer footer {
+                max-width: 1000px;
+                padding: 0 20px;
+            }
+
+            .contenedor-contenido {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 1220px) {
+            .contenedor-contenido {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            article {
+                box-shadow: 0 0 0 0;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .solo-inicio {
+                display: none;
+            }
+        }
+    </style>
     <title>Document</title>
 </head>
 
@@ -26,15 +67,16 @@
                 <nav>
                     <img src="../img-sonic/Sonic-Logo2.png" alt="">
                     <ul>
-                        <li class="solo-inicio"><a href="../secciones/principal.html">Inicio</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=_gjszHTDjzo">Prólogo Frontiers</a></li>
+                        <li><a href="../secciones/principal.html">Inicio</a></li>
+                        <li class="solo-inicio"><a href="https://www.youtube.com/watch?v=_gjszHTDjzo">Prólogo
+                                Frontiers</a></li>
                     </ul>
                 </nav>
             </nav>
 
         </div>
 
-        
+
 
 
     </header>
@@ -140,7 +182,7 @@
 
             <hr>
             <h4>© 2023 Whiler - Todos los derechos de la informacion utilizada otorgados a sus respectivos autoes</h4>
-            
+
         </footer>
     </div>
 
