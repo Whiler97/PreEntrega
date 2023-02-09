@@ -5,7 +5,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     
 }
@@ -461,4 +460,38 @@ margin-left: 0;
     border-radius: 50px;
     cursor: pointer;
 
-}*/
+}  
+
+TODO ESTO QUEDA ANULADO, aunque prefiero no borrarlo*/
+
+
+/*Estilado de sección Ovejero*/
+
+.head-ove{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo-ove{
+    margin-left: 30px;
+}
+
+.logo-ove a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
